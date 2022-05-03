@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  color: #2f2f2f;
   scroll-behavior: smooth;
   list-style-type: none;
   scroll-behavior: smooth;
