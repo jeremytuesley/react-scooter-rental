@@ -11,6 +11,9 @@ nav {
   .business-name {
     font-size: 28px;
     font-family: 'Lato', sans-serif;
+    &:hover {
+      opacity: 0.9;
+    }
   }
 
   .nav-list {
