@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px;
+  height: 80px;
+  background-color: #082742;
+  color: whitesmoke;
+
+  .business-name {
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+
+    .nav-list-catalog {
+      font-size: 20px;
+      margin-right: 48px;
+    }
+  }
+}

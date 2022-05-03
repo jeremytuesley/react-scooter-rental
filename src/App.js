@@ -1,7 +1,11 @@
-import './App.css';
+import Nav from './components/Nav';
 
 function App() {
-  return <main></main>;
+  return (
+    <main>
+      <Nav />
+    </main>
+  );
 }
 
 export default App;
