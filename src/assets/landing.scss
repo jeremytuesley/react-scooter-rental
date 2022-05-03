@@ -1,0 +1,12 @@
+.landing-page {
+  background-image: url('./images/landing-image.jpg'); // image from 'https://www.pexels.com/photo/person-riding-road-bike-on-the-road-38296/' free stock photos
+  height: 90vh;
+
+  h1 {
+    position: absolute;
+    font-size: 72px;
+    color: white;
+    bottom: 80px;
+    left: 200px;
+  }
+}
