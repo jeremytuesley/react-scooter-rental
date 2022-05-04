@@ -1,0 +1,21 @@
+.bike-catalog-page {
+  width: 80%;
+  margin: 40px auto;
+
+  .bike-catalog-title {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid grey;
+    margin-bottom: 50px;
+  }
+
+  .bike-catalog-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .card-container {
+      margin-bottom: 40px;
+    }
+  }
+}

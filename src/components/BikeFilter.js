@@ -20,7 +20,7 @@ const BikeFilter = () => {
         <div className="user-selections">
           <div className="user-selections-title">Advanced</div>
           <div className="user-selections-icon">
-            Hamburger, will have model, color, rating selections
+            {/* Hamburger, will have model, color, rating selections */}
           </div>
         </div>
       </div>

@@ -1,0 +1,43 @@
+.bike-card {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px #797cb9;
+  padding: 16px;
+
+  .bike-card-details {
+    font-size: 20px;
+    div {
+      line-height: 1.5em;
+    }
+    .bike-card-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+    .bike-card-user-inputs {
+      display: flex;
+      justify-content: space-between;
+      .bike-card-ratings-container {
+        font-size: 16px;
+        .bike-card-ratings {
+          margin-top: 12px;
+          .fa-star {
+            color: #80808093;
+          }
+          .checked {
+            color: orange;
+          }
+        }
+      }
+      .reserve-button {
+        padding: 2px 8px;
+        font-size: 18px;
+        max-height: 36px;
+        align-self: flex-end;
+        background-color: #1976d2;
+        border-radius: 4px;
+        color: white;
+      }
+    }
+  }
+}
