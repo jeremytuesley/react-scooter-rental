@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BikeFilter = () => {
+const ScooterFilter = () => {
   return (
     <div>
       <h3>When are you looking to rent?</h3>
@@ -28,4 +28,4 @@ const BikeFilter = () => {
   );
 };
 
-export default BikeFilter;
+export default ScooterFilter;

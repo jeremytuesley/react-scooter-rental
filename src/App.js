@@ -2,7 +2,7 @@ import Nav from './components/Nav';
 // import Landing from './components/Landing';
 import { Routes, Route } from 'react-router-dom';
 import Landing from './components/Landing';
-import BikeCatalog from './pages/BikeCatalog';
+import ScooterCatalog from './pages/ScooterCatalog';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/catalog" element={<BikeCatalog />} />
+        <Route path="/catalog" element={<ScooterCatalog />} />
       </Routes>
     </main>
   );

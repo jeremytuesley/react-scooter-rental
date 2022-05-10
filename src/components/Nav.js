@@ -7,12 +7,14 @@ const Nav = () => {
   return (
     <nav>
       <Link to="/">
-        <div className="business-name">Toptal Bike Rentals</div>
+        <div className="business-name">Sunefire Scooter Rentals</div>
       </Link>
       <div className="nav-list-container">
         <ul className="nav-list">
           <Link to="/catalog">
-            <li className="nav-list-item nav-list-catalog">Rentable Bikes</li>
+            <li className="nav-list-item nav-list-catalog">
+              Rentable scooters
+            </li>
           </Link>
           <li className="nav-list-item">Register</li>|
           <li className="nav-list-item">Sign in</li>

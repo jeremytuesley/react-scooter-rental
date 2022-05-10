@@ -1,25 +1,25 @@
-.bike-card {
+.scooter-card {
   width: 300px;
   border-radius: 10px;
   box-shadow: 2px 2px 3px #797cb9;
   padding: 16px;
 
-  .bike-card-details {
+  .scooter-card-details {
     font-size: 20px;
     div {
       line-height: 1.5em;
     }
-    .bike-card-title {
+    .scooter-card-title {
       text-align: center;
       font-size: 24px;
       margin-bottom: 12px;
     }
-    .bike-card-user-inputs {
+    .scooter-card-user-inputs {
       display: flex;
       justify-content: space-between;
-      .bike-card-ratings-container {
+      .scooter-card-ratings-container {
         font-size: 16px;
-        .bike-card-ratings {
+        .scooter-card-ratings {
           margin-top: 12px;
           .fa-star {
             color: #80808093;
